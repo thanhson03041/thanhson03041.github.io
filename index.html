@@ -3,49 +3,53 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Phan Thanh Son — undergraduate student at HCMUT and research intern at PLSE, School of Computing, National University of Singapore.">
+<meta name="description" content="Phan Thanh Son — undergraduate student at HCMUT and research intern at PLSE@SoC, National University of Singapore. Research interests in theoretical computer science, constraint programming, and SAT encodings of constraints.">
 <title>Phan Thanh Son</title>
 <style>
 html { color-scheme: light; }
-body { max-width: 760px; margin: 48px auto; padding: 0 22px; background: #fff; color: #111; font-family: Georgia, "Times New Roman", serif; font-size: 17px; line-height: 1.6; }
-h1, h2 { font-family: "Times New Roman", Times, serif; line-height: 1.2; }
-h1 { margin: 0 0 22px; font-size: 34px; }
-h2 { margin: 28px 0 12px; font-size: 23px; }
-p { margin: 0 0 18px; }
-a { color: #0000b3; text-decoration: underline; text-underline-offset: 2px; }
-a:visited { color: #551a8b; }
-a:hover { color: #000; }
-a:focus-visible { outline: 2px solid #0000b3; outline-offset: 3px; }
-hr { border: 0; border-top: 1px solid #aaa; margin: 27px 0; }
-ul { padding-left: 24px; margin: 0; }
-li { margin: 5px 0; }
-.contact a { overflow-wrap: anywhere; }
-@media (max-width: 480px) { body { margin: 28px auto; padding: 0 18px; font-size: 16px; } h1 { font-size: 30px; } }
+* { box-sizing: border-box; }
+body { max-width: 844px; margin: 64px auto; padding: 0 24px; background: #fff; color: #202020; font-family: "Times New Roman", Times, serif; font-size: 18px; line-height: 1.6; }
+h1, h2 { line-height: 1.2; }
+h1 { margin: 0 0 32px; font-size: 42px; font-weight: 700; }
+h2 { margin: 0 0 14px; font-size: 25px; }
+p { margin: 0; }
+.affiliations { display: grid; grid-template-columns: 1fr 1fr; gap: 24px 40px; }
+.affiliation { font-size: 17px; line-height: 1.65; }
+.affiliation strong { display: inline-block; margin-bottom: 5px; font-size: 18px; }
+section { border-top: 1px solid #ccc; margin-top: 32px; padding-top: 24px; }
+a { color: #173f76; }
+a:focus-visible { outline: 2px solid #173f76; outline-offset: 4px; }
+.contact-links { display: flex; flex-wrap: wrap; gap: 10px; }
+.contact-links a { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 7px 17px; border: 1px solid #9ca9bb; border-radius: 3px; background: #f7f8fa; color: #173f76; font-size: 17px; line-height: 1.4; text-decoration: none; }
+.contact-links a:hover { background: #eaf0f7; border-color: #173f76; }
+@media (max-width: 600px) { body { margin: 32px auto; padding: 0 20px; font-size: 17px; } h1 { font-size: 36px; margin-bottom: 24px; } h2 { font-size: 23px; } .affiliations { grid-template-columns: 1fr; gap: 20px; } section { margin-top: 26px; padding-top: 22px; } }
 </style>
 </head>
 <body>
 <main>
 <header>
 <h1>Phan Thanh Son</h1>
-<p><strong>Undergraduate Student</strong><br>
+<div class="affiliations">
+<p class="affiliation"><strong>Undergraduate Student</strong><br>
 Faculty of Computer Science and Engineering<br>
 HCMC University of Technology – VNUHCM (HCMUT)</p>
-<p><strong>Research Intern</strong><br>
-PLSE, School of Computing<br>
+<p class="affiliation"><strong>Research Intern</strong><br>
+PLSE@SoC<br>
 National University of Singapore (NUS)</p>
+</div>
 </header>
-<hr>
 <section aria-labelledby="research-heading">
 <h2 id="research-heading">Research Interests</h2>
-<p>My interests are in theoretical computer science, with a focus on constraint programming and SAT encodings of constraints (CSP to CNF).</p>
+<p>My interests are in theoretical computer science, with a focus on constraint programming and SAT encodings of constraints.</p>
 </section>
-<section class="contact" aria-labelledby="contact-heading">
+<section aria-labelledby="contact-heading">
 <h2 id="contact-heading">Contact</h2>
-<ul>
-<li><a href="mailto:son.phanthanh04@hcmut.edu.vn">son.phanthanh04@hcmut.edu.vn</a></li>
-<li><a href="mailto:t0939071@u.nus.edu">t0939071@u.nus.edu</a></li>
-<li><a href="https://www.linkedin.com/in/sonphanthanh04/">LinkedIn</a></li>
-</ul>
+<div class="contact-links">
+<a href="mailto:sonphanthanh04@gmail.com" title="sonphanthanh04@gmail.com">Email</a>
+<a href="mailto:son.phanthanh04@gmail.com" title="son.phanthanh04@gmail.com">Alternate email</a>
+<a href="mailto:t0939071@u.nus.edu" title="t0939071@u.nus.edu">NUS email</a>
+<a href="https://www.linkedin.com/in/sonphanthanh04/">LinkedIn</a>
+</div>
 </section>
 </main>
 </body>
